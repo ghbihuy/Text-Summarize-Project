@@ -2,7 +2,10 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(level=logging.INFO, format='[%(asctime)]s: %(message)s')
+logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s')
+
+
+
 
 project_name = "textSummerizer"
 
@@ -25,7 +28,7 @@ list_of_files = [
     "Dockerfile",
     "requirements.txt",
     "setup.py",
-    "research/trials.ipynb",
+    "research/trials.ipynb"
 ]
 
 for filepath in list_of_files:
